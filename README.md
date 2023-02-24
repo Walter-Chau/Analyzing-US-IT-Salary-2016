@@ -1,4 +1,6 @@
-# It is a project to pratice SQL skills. Trying to find the mean and the median of IT industry salary first amd see what kind of insight it brings
+# It is a project to pratice SQL skills. Trying to find the mean and the median of IT industry salary first amd see what kind of insight it brings.
+# https://public.tableau.com/views/Analyzing-US-IT-Salary-2016/Dashboard?:language=en-GB&:display_count=n&:origin=viz_share_link
+
 # After removing the outliers, the distribution became much clearer than before.
 # We can easily local the numbers we want from the data set, the mean of total income would be $110000, the upper quarter would be $140000 and the lower quarter would be $75000.
 
