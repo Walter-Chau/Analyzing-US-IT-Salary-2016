@@ -1,4 +1,4 @@
-## Aiming to find the mean of estimated salary of H1B Visa holder and the which industry is trending on H1B Visa Programme.
+## Aiming to find the tendency of H1B Visa receiver and the which industry is trending on H1B Visa Programme.
 
 <a href="https://drive.google.com/file/d/1UIHkp0umRqwPQOmFGC3D_WR5Dfc6Siqq/view?usp=sharing"> Data_Raw</a> 
 
