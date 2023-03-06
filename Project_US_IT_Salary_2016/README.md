@@ -1,5 +1,5 @@
 ## It is a project to pratice SQL nad Python skills. 
-Aiming to find the mean and the median of IT industry salary first amd see what kind of insight it brings.
+###Aiming to find the mean and the median of IT industry salary first amd see what kind of insight it brings.
 
 Dashboard in Tableau https://public.tableau.com/views/Analyzing-US-IT-Salary-2016/Dashboard?:language=en-GB&:display_count=n&:origin=viz_share_link
 
