@@ -3,6 +3,8 @@ Aiming to find the mean and the median of IT industry salary first amd see what 
 
 Dashboard in Tableau https://public.tableau.com/views/Analyzing-US-IT-Salary-2016/Dashboard?:language=en-GB&:display_count=n&:origin=viz_share_link
 
+![US_IT_Salary_2016](https://user-images.githubusercontent.com/123023512/223044007-ff7010de-22c5-4ccf-b1d2-26e80e5cd779.png)
+
 After removing the outliers, the distribution became much clearer than before. We can easily local the numbers we want from the data set, the median of total income would be $105000, the upper hinge would be $137000 and the lower hinge would be $75000.
 
 According to the statistic from the U.S. census, the Annual mean salary per employee in the U.S. in 2016 was $60,826. As a result, we can see the mean of the IT industry's annual base pay($97783) is round 160% of the mean salary.
