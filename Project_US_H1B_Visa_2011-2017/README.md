@@ -6,6 +6,6 @@
 
 Dashboard in Tableau https://public.tableau.com/app/profile/ka.wa.chau/viz/Analyzing_H1B_Visa_2011-2017/Dashboard
 
-![Analyzing_H1B_Visa_2011-2017](https://user-images.githubusercontent.com/123023512/223051356-4cf22c51-607d-4c8d-9693-69af5a463740.png)
+![US_IT_Salary_2016](https://user-images.githubusercontent.com/123023512/223052066-1d775c75-4367-4907-9d32-2313eb297f18.png)
 
 (Processing)
