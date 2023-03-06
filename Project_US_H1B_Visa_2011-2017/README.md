@@ -8,4 +8,6 @@ Dashboard in Tableau https://public.tableau.com/app/profile/ka.wa.chau/viz/Analy
 
 ![Analyzing_H1B_Visa_2011-2017](https://user-images.githubusercontent.com/123023512/223052114-766a5e4d-0d1d-46b6-b151-0dde93446ee9.png)
 
-(Processing)
+After removing the unnecessary columns and rejected cases, we are able to clearly review the numbers of H1b Visa receivers.  There is a gradual increase in the number of H1B Visa receivers, the number of receivers in 2017(542,344) is almost 200% compared with 2011(284,071).
+
+Around 60% of H1B receivers belong to the information Industry and the top 10 job title shows the relevant data. It means the U.S. is thirsty for IT talent.
