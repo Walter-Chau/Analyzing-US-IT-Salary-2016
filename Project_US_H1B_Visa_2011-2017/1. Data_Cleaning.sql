@@ -4,12 +4,13 @@ select * from h1b_data;
 --If we need, we can divide the data into different years in order to analyze it in details.
 select distinct case_year
 from h1b_data;
+--The data set is from 2011 to 2017.
 
 -- Try to find the unique value
 SELECT *
 FROM h1B_2011
 ORDER BY soc_code ASC;	
--- It is not the unqiue value, can't be primary key. It is likely the data did not contain a unique value.
+-- It is not the unique value, can't be the primary key. It is likely the data did not contain a unique value.
 
 --It is better to drop columns we are not going to analyze first.
 ALTER TABLE h1b_data
@@ -43,7 +44,7 @@ ADD Processing_Time SMALLINT;
 UPDATE h1b_data
 SET Processing_Time = JULIANDAY(decision_date) - julianday(case_submitted);
 
---Generate an updated table the previous one may keep it as back up. This time, we will only analyze the cases which had been approved. 
+--Generate an updated table the previous one may keep it as a backup. This time, we will only analyze the cases which had been approved. 
 CREATE TABLE h1b_data_2 as
 	SELECT *
 	FROM h1b_data
@@ -117,7 +118,7 @@ or soc_name = 'MEDICAL SCIENTISTS, EXCEPT EPIDEMIOLOGISTS'
 or soc_name = 'PHYSICAL THERAPISTS'
 ;
 
--- Start to divide Tables in different year 2011 - 2017
+-- Start to divide Tables into the different years 2011 - 2017
 CREATE TABLE h1B_2011 as
 	SELECT *
 	from h1b_data_2
@@ -153,4 +154,4 @@ CREATE TABLE h1B_2017 as
 	from h1b_data_2
 	WHERE case_year = 2017;
 	
--- Since the data are clear enought, we can import it into tableau for data visualization.
+-- Since the data are clear enough, we can import them into tableau for data visualization.
