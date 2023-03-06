@@ -1,7 +1,7 @@
-# It is a project to pratice SQL nad Python skills. 
+## It is a project to pratice SQL nad Python skills. 
 Aiming to find the mean and the median of IT industry salary first amd see what kind of insight it brings.
 
-## Dashboard in Tableau https://public.tableau.com/views/Analyzing-US-IT-Salary-2016/Dashboard?:language=en-GB&:display_count=n&:origin=viz_share_link
+Dashboard in Tableau https://public.tableau.com/views/Analyzing-US-IT-Salary-2016/Dashboard?:language=en-GB&:display_count=n&:origin=viz_share_link
 
 After removing the outliers, the distribution became much clearer than before. We can easily local the numbers we want from the data set, the median of total income would be $105000, the upper hinge would be $137000 and the lower hinge would be $75000.
 
